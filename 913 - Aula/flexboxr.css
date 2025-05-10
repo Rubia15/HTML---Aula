@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    color: black; 
+    background-image: url('fundorosa.jpg');
+    background-size: cover; 
+    background-position: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.logodoceria {
+    margin-bottom: 40px;
+    width: 200px;
+    box-shadow: 0 0 100px palevioletred;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    cursor: pointer;
+    width: 200px;
+    height: auto;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.menudd {
+    background-color: #ffb6c1;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: black;  
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 16px;
+}
+
+.menudd:hover {
+    background-color: #d41172;
+    color: plum;
+    transform: scale(1.05);
+}
+
+
+.perfil img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    background: #FFB6C1;
+    border-radius: 20px; 
+    box-shadow: 0 0 15px #FFFAF0;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 140px;
+    height: auto;
+}
+
+.desenvolvedor {
+    display: flex;
+    background: #FF1493;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 8px 16px;
+    margin-top: 10px;
+}
+
+.desenvolvedor:hover {
+    background: #FF69B4;
+    transform: scale(1.03);
+}
+
+.caixa {
+    width: 300px;
+    padding: 30px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7));
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
